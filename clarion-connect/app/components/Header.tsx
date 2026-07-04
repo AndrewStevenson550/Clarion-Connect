@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingTop: 12,
     paddingBottom: 8,
-    backgroundColor: "#fff",
+    backgroundColor: "#f9f9fd",
   },
   headerContainer: {
     flexDirection: "row",
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   iconButton: {
     padding: 8,
     borderRadius: 999,
-    backgroundColor: "#f8ede8",
+    
   },
   title: {
     color: "#94492e",

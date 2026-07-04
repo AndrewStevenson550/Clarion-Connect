@@ -2,12 +2,16 @@ import React from "react";
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import Header from "../components/Header";
 import { SafeAreaView } from "react-native-safe-area-context";
+import PostView from "../components/PostView";
+import SocialBar from "../components/SocialBar";
 
 const Homescreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView >
         <Header />
+        <SocialBar />
+        <PostView />
       </ScrollView>
     </SafeAreaView>
   );
@@ -16,7 +20,7 @@ const Homescreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#ffffff",
+    backgroundColor: "#fcfaf7",
   },
   content: {
     paddingHorizontal: 16,

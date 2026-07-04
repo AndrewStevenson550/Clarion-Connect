@@ -16,7 +16,7 @@ export default function ActivityScreen() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: "#ffffff",
+    backgroundColor: "#fcfaf7",
   },
   container: {
     flex: 1,
