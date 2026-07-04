@@ -6,8 +6,9 @@ import { SafeAreaView } from "react-native-safe-area-context";
 const Homescreen = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Header />
-      <ScrollView contentContainerStyle={styles.content} />
+      <ScrollView >
+        <Header />
+      </ScrollView>
     </SafeAreaView>
   );
 };

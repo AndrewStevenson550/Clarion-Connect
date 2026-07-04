@@ -1,12 +1,14 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, ScrollView } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Header from "../components/Header";
 
 export default function ExploreScreen() {
   return (
     <SafeAreaView style={styles.safeArea}>
-      <Header />
+      <ScrollView >
+        <Header />
+      </ScrollView>
     </SafeAreaView>
   );
 }
