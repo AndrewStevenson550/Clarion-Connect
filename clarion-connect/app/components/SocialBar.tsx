@@ -26,6 +26,7 @@ const SocialBar = () => {
             <Text style={styles.itemName}>Name</Text>
           </View>
         </View>
+        
       </View>
     </ScrollView>
   );
